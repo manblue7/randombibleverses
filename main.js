@@ -1,7 +1,7 @@
 import bible from './kjv.json' assert { type: 'json' };
 document.getElementById('ver').addEventListener('click', generateVerse);
 document.getElementById('ps').addEventListener('click', generatePsalm);
-document.getElementById('pro').addEventListener('click', generatePsalm);
+document.getElementById('pro').addEventListener('click', generateProverb);
 function generateVerse() {
     let vNum = Math.floor(Math.random() * bible["verses"].length);
     let verses = bible["verses"][vNum];
@@ -34,7 +34,7 @@ function generateProverb() {
     while(true) {
     let vNum = Math.floor(Math.random() * bible["verses"].length);
     let verses;
-    if(bible["verses"][vNum]["book_name"] == "Proverb") {
+    if(bible["verses"][vNum]["book_name"] == "Proverbs") {
         verses = bible["verses"][vNum]
     } else {
         continue;
