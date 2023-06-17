@@ -21,10 +21,10 @@ function generateVerse() {
         document.getElementById("verseB").innerHTML = verseInfo2 + " " + verse2;
         console.log("generated");
     }
-    let verse = verses["text"];
+    let verse1 = verses["text"];
     let verseInfo = verses["book_name"] +
     " " + verses["chapter"] + ":" + verses["verse"];
-    document.getElementById("verse").innerHTML = verseInfo + " " + verse;
+    document.getElementById("verse").innerHTML = verseInfo + " " + verse1;
     console.log("generated");
 }
 
@@ -51,10 +51,10 @@ function generatePsalm() {
         document.getElementById("verseB").innerHTML = verseInfo2 + " " + verse2;
         console.log("generated");
     }
-    let verse = verses["text"];
+    let verse1 = verses["text"];
     let verseInfo = verses["book_name"] +
     " " + verses["chapter"] + ":" + verses["verse"];
-    document.getElementById("verse").innerHTML = verseInfo + " " + verse;
+    document.getElementById("verse").innerHTML = verseInfo + " " + verse1;
     console.log("generated");
     break;
     } 
@@ -83,10 +83,10 @@ function generateProverb() {
         document.getElementById("verseB").innerHTML = verseInfo2 + " " + verse2;
         console.log("generated");
     }
-    let verse = verses["text"];
+    let verse1 = verses["text"];
     let verseInfo = verses["book_name"] +
     " " + verses["chapter"] + ":" + verses["verse"];
-    document.getElementById("verse").innerHTML = verseInfo + " " + verse;
+    document.getElementById("verse").innerHTML = verseInfo + " " + verse1;
     console.log("generated");
     break;
     } 
