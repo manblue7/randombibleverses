@@ -1,6 +1,5 @@
 import bible from './kjv.json' assert { type: 'json' };
 
-
 document.getElementById('ver').addEventListener('click', generateVerse);
 document.getElementById('ps').addEventListener('click', generatePsalm);
 document.getElementById('pro').addEventListener('click', generatePsalm);
