@@ -24,12 +24,13 @@ main p {
 
 main div {
     margin: 0 auto;
-    width: 400px;
+    width: 370px;
 }
 
 .btn {
     display: inline-block;
     width: 75px;
     height: 55px;
-    margin-left: 46px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
