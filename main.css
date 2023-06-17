@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+
+header {
+    text-align: center;
+    background-image: url("./Seraphim_1.jpg");
+    background-size: contain;
+    text-shadow: #FC0 1px 0 10px;
+}
+header div {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 35px;
+}
+
+
+
+main p {
+    width: 500px;
+    font-size: 25px;
+}
+main div {
+    margin: 0 auto;
+    width: 600px;
+}
+.btn {
+    display: inline-block;
+    width: 100px;
+    margin-left: 86px;
+}
