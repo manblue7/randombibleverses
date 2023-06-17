@@ -1,7 +1,10 @@
 import bible from './kjv.json' assert { type: 'json' };
 document.getElementById('ver').addEventListener('click', generateVerse);
+document.getElementById('ver').addEventListener('touchstart', generateVerse);
 document.getElementById('ps').addEventListener('click', generatePsalm);
+document.getElementById('ps').addEventListener('touchstart', generatePsalm);
 document.getElementById('pro').addEventListener('click', generateProverb);
+document.getElementById('pro').addEventListener('touchstart', generateProverb);
 function generateVerse() {
     let vNum = Math.floor(Math.random() * bible["verses"].length);
     let verses = bible["verses"][vNum];
