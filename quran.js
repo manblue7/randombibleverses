@@ -13,7 +13,7 @@ function generateVerseQ() {
         verses2 = quran[bNum][vNum - 1];
     }
     else {
-        document.getElementById("verseq").innerHTML = "";
+        document.getElementById("verseBq").innerHTML = "";
     }
     
     let verseInfo2;
@@ -28,7 +28,7 @@ function generateVerseQ() {
         verses3 = quran[bNum][vNum - 2];
     }
     else {
-        document.getElementById("verseq").innerHTML = "";
+        document.getElementById("verseBq2").innerHTML = "";
     }
     
     let verseInfo3;
